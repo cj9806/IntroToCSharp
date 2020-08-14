@@ -21,9 +21,13 @@ namespace LoopsExercise
                 Console.WriteLine(i);
             }
             Console.WriteLine("second for loop counter");
-            for (int i = 0; i <= 100; i += 20)
+            for (int i = 1; i <= 150; i += 20)
             {
                 Console.WriteLine(i);
+                if (i > 100)
+                {
+                    break;
+                }
             }
 
         }
