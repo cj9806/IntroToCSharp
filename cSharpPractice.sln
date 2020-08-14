@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstProgram", "MyFirstPr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Varibles Operators And Expressions", "Varibles Operators And Expressions\Varibles Operators And Expressions.csproj", "{9809A5D3-8ACA-4DFB-80E5-694620EF3184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifStatementsExercise", "ifStatements\ifStatementsExercise.csproj", "{DF97D326-4BDD-4262-87FD-25F65CAC950E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ifStatementsExercise", "ifStatements\ifStatementsExercise.csproj", "{DF97D326-4BDD-4262-87FD-25F65CAC950E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsExercise", "LoopsExercise\LoopsExercise.csproj", "{A32FAF11-A7DA-4EDA-928D-EB9CEC6143EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DF97D326-4BDD-4262-87FD-25F65CAC950E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF97D326-4BDD-4262-87FD-25F65CAC950E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF97D326-4BDD-4262-87FD-25F65CAC950E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32FAF11-A7DA-4EDA-928D-EB9CEC6143EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32FAF11-A7DA-4EDA-928D-EB9CEC6143EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32FAF11-A7DA-4EDA-928D-EB9CEC6143EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32FAF11-A7DA-4EDA-928D-EB9CEC6143EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
