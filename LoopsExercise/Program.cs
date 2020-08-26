@@ -6,6 +6,7 @@ namespace LoopsExercise
     {
         static void Main()
         {
+            int score = 0;
             int loopCount = 1;
             int loopTrack = 1;
             Console.WriteLine("while loop counter.");
@@ -19,6 +20,14 @@ namespace LoopsExercise
             for (int i = 1; i <= 20; i++)
             {
                 Console.WriteLine(i);
+                if (score < 100)
+                {
+                    score += 20;
+                }
+                else
+                {
+                    break;
+                }
             }
             Console.WriteLine("second for loop counter");
             for (int i = 1; i <= 150; i += 20)
